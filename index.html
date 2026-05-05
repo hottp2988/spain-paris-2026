@@ -16,26 +16,37 @@
 <body class="bg-slate-100 flex h-screen overflow-hidden text-slate-800">
 
     <!-- 側邊選單 -->
-    <nav class="w-64 bg-slate-900 text-white flex-shrink-0 flex flex-col h-full z-50 shadow-2xl">
-        <div class="p-6 bg-slate-950 font-black text-2xl tracking-tighter">
-            S&P 2026
-        </div>
-        <div class="flex-1 overflow-y-auto p-4 space-y-2 no-scrollbar">
-            <a href="#hero" class="block px-4 py-3 bg-blue-600 rounded-xl text-sm font-bold transition hover:bg-blue-500">
-                首頁與機票
-            </a>
-<a href="#accommodations" class="block px-4 py-3 bg-slate-800 rounded-xl text-sm font-bold transition hover:bg-slate-700">
-                住宿資訊
-            </a>
-            <a href="#transportation" class="block px-4 py-3 bg-slate-800 rounded-xl text-sm font-bold transition hover:bg-slate-700">
-                交通預算
-            </a>
-            <a href="#tickets" class="block px-4 py-3 bg-slate-800 rounded-xl text-sm font-bold transition hover:bg-slate-700">
-                景點門票
-            </a>
-            <a href="#others" class="block px-4 py-3 bg-slate-800 rounded-xl text-sm font-bold transition hover:bg-slate-700">
-                其他雜項
-            </a>
+<nav class="w-64 bg-slate-900 text-white flex-shrink-0 flex flex-col h-full z-50 shadow-2xl">
+    <div class="p-6 bg-slate-950 font-black text-2xl tracking-tighter">S&P 2026</div>
+    <div class="flex-1 overflow-y-auto p-4 space-y-1 no-scrollbar">
+        <!-- 主題總覽 -->
+        <p class="text-xs font-bold text-slate-500 uppercase px-4 pt-4 pb-2 italic">General</p>
+        <a href="#hero" class="block px-4 py-2 hover:bg-slate-800 rounded-lg text-sm transition">首頁封面</a>
+        <a href="#flights" class="block px-4 py-2 hover:bg-slate-800 rounded-lg text-sm transition">機票資訊</a>
+        <a href="#accommodations" class="block px-4 py-2 hover:bg-slate-800 rounded-lg text-sm transition">住宿資訊</a>
+        <a href="#transportation" class="block px-4 py-2 hover:bg-slate-800 rounded-lg text-sm transition">交通預算</a>
+        <a href="#tickets" class="block px-4 py-2 hover:bg-slate-800 rounded-lg text-sm transition">景點門票</a>
+        
+        <!-- 每日行程 -->
+        <p class="text-xs font-bold text-slate-500 uppercase px-4 pt-6 pb-2 italic">Itinerary</p>
+        <a href="#d1" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition bg-blue-900/30">D1 06/07 出發</a>
+        <a href="#d2" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D2 06/08 巴塞隆納</a>
+        <a href="#d3" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D3 06/09 購物/市區</a>
+        <a href="#d4" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D4 06/10 奎爾/巴特略</a>
+        <a href="#d5" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D5 06/11 蒙塞拉特</a>
+        <a href="#d6" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D6 06/12 馬賽攻略</a>
+        <a href="#d7" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D7 06/13 前往尼斯</a>
+        <a href="#d8" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D8 06/14 坎城昂蒂布</a>
+        <a href="#d9" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D9 06/15 芒通摩納哥</a>
+        <a href="#d10" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D10 06/16 尼斯遺跡</a>
+        <a href="#d11" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D11 06/17 巴黎出發</a>
+        <a href="#d12" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D12 06/18 羅浮奧賽</a>
+        <a href="#d13" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D13 06/19 西堤歷史</a>
+        <a href="#d14" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D14 06/20 凡爾賽</a>
+        <a href="#d15" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D15 06/21 蒙馬特</a>
+        <a href="#d16" class="block px-4 py-2 hover:bg-blue-600 rounded-lg text-sm transition">D16 06/22 歸途</a>
+    </div>
+</nav>
             <!-- 後續選單按鈕預留區 -->
         </div>
     </nav>
@@ -581,8 +592,193 @@
                     </table>
                 </div>
             </section>
-            
+<!-- D1 06/07(sun.) 出發 -->
+            <section id="d1" class="scroll-mt-12">
+                <div class="border-l-8 border-indigo-600 pl-4 mb-6">
+                    <h2 class="text-3xl font-black text-slate-900">D1 06/07(sun.) 出發</h2>
+                </div>
+
+                <div class="glass-card rounded-3xl shadow-lg border border-white overflow-hidden text-slate-800">
+                    <table class="w-full text-left">
+                        <thead class="bg-slate-800 text-white text-sm tracking-wider">
+                            <tr>
+                                <th class="p-5 font-bold w-24">時間</th>
+                                <th class="p-5 font-bold">地點</th>
+                                <th class="p-5 font-bold w-1/3">行程描述與備註</th>
+                                <th class="p-5 font-bold">費用</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200">
+                            <tr>
+                                <td class="p-5 font-mono font-bold text-blue-700">1200</td>
+                                <td class="p-5 font-bold">
+                                    <a href="[填寫網址]" target="_blank" class="text-blue-500 underline hover:text-blue-700">桃園機場 (TPE)</a>
+                                </td>
+                                <td class="p-5 text-sm leading-relaxed">
+                                    預計 <b>17:55</b> 出發。請於 <b>第二航站</b> 辦理報到。
+                                </td>
+                                <td class="p-5 text-sm italic">機票含</td>
+                            </tr>
+                            <tr>
+                                <td class="p-5 font-mono font-bold text-blue-700">1955</td>
+                                <td class="p-5 font-bold">
+                                    <a href="[填寫網址]" target="_blank" class="text-blue-500 underline hover:text-blue-700">上海浦東機場 (PVG)</a>
+                                </td>
+                                <td class="p-5 text-sm leading-relaxed">
+                                    <b>19:55</b> 抵達。轉機等待約 <b>4hr 45min</b>。
+                                </td>
+                                <td class="p-5 text-sm italic">--</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 font-mono font-bold text-blue-700 italic">2340</td>
+                                <td class="p-5 font-bold">
+                                    <a href="[填寫網址]" target="_blank" class="text-blue-500 underline hover:text-blue-700">上海浦東機場 (PVG)</a>
+                                </td>
+                                <td class="p-5 text-sm leading-relaxed">
+                                    <b>00:40</b> (+1) 起飛前往巴塞隆納。航班 <b>CA839</b>。
+                                </td>
+                                <td class="p-5 text-sm italic">--</td>
+                            </tr>
+                            <tr class="bg-blue-50/30">
+                                <td class="p-5 font-mono font-bold text-blue-700">0755+</td>
+                                <td class="p-5 font-bold">
+                                    <a href="[填寫網址]" target="_blank" class="text-blue-500 underline hover:text-blue-700">巴塞隆納機場 (BCN)</a>
+                                </td>
+                                <td class="p-5 text-sm leading-relaxed">
+                                    <b>07:55</b> 抵達 <b>第一航站</b>。開始西班牙行程。
+                                </td>
+                                <td class="p-5 text-sm italic">--</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
             <!-- 後續 D1 行程區塊請插入於此 -->
+<!-- D2 06/08(mon.) 巴塞隆納市區+聖家堂①+② -->
+            <section id="d2" class="scroll-mt-12">
+                <div class="border-l-8 border-orange-500 pl-4 mb-6">
+                    <h2 class="text-3xl font-black text-slate-900">D2 06/08(mon.) 巴塞隆納市區+聖家堂</h2>
+                </div>
+
+                <div class="glass-card rounded-3xl shadow-lg border border-white overflow-hidden text-slate-800">
+                    <table class="w-full text-left">
+                        <thead class="bg-slate-800 text-white text-sm tracking-wider">
+                            <tr>
+                                <th class="p-5 font-bold w-24">時間</th>
+                                <th class="p-5 font-bold">地點</th>
+                                <th class="p-5 font-bold w-1/3">行程描述與備註</th>
+                                <th class="p-5 font-bold">預算 (€)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200">
+                            <!-- 10:30 -->
+                            <tr class="hover:bg-orange-50/30 transition">
+                                <td class="p-5 font-mono font-bold text-blue-700">1030</td>
+                                <td class="p-5 font-bold">
+                                    <a href="[填寫網址]" target="_blank" class="text-blue-500 underline hover:text-blue-700">Locker Barcelona</a>
+                                </td>
+                                <td class="p-5 text-sm">時間:<b>09.00-21.00</b>。寄存行李。</td>
+                                <td class="p-5 text-sm">--</td>
+                            </tr>
+                            <!-- 10:45 -->
+                            <tr class="hover:bg-orange-50/30 transition">
+                                <td class="p-5 font-mono font-bold text-blue-700">1045</td>
+                                <td class="p-5 font-bold">
+                                    <a href="[填寫網址]" target="_blank" class="text-blue-500 underline hover:text-blue-700">El Corte Inglés Plaça de Catalunya</a>
+                                </td>
+                                <td class="p-5 text-sm leading-relaxed">
+                                    巴塞隆納標誌性購物中心。<b>9樓</b>美食餐廳可欣賞<b>加泰隆尼亞廣場</b>和宏偉<b>聖家堂</b>的壯麗景色。
+                                </td>
+                                <td class="p-5 text-sm">--</td>
+                            </tr>
+                            <!-- 11:30 -->
+                            <tr class="hover:bg-orange-50/30 transition">
+                                <td class="p-5 font-mono font-bold text-blue-700">1130</td>
+                                <td class="p-5 font-bold">
+                                    <a href="[填寫網址]" target="_blank" class="text-blue-500 underline hover:text-blue-700">加泰羅尼亞廣場</a>
+                                </td>
+                                <td class="p-5 text-sm">
+                                    城市心臟，連接充滿中世紀風情的<b>舊城區</b>與現代主義建築林立的<b>擴建區</b>。
+                                </td>
+                                <td class="p-5 text-sm">--</td>
+                            </tr>
+                            <!-- 11:45 -->
+                            <tr class="hover:bg-orange-50/30 transition">
+                                <td class="p-5 font-mono font-bold text-blue-700">1145</td>
+                                <td class="p-5 font-bold">
+                                    <a href="[填寫網址]" target="_blank" class="text-blue-500 underline hover:text-blue-700">Kiko Milano</a>
+                                </td>
+                                <td class="p-5 text-sm space-y-1">
+                                    <p>3D Hydra Lipgloss (17/20/05) <b>€14</b></p>
+                                    <p>Smart Fusion(405/404) <b>€8</b></p>
+                                    <p>Smart fusion lip pencil(05) <b>€6</b></p>
+                                </td>
+                                <td class="p-5 text-sm">--</td>
+                            </tr>
+                            <!-- 12:00 -->
+                            <tr class="hover:bg-orange-50/30 transition">
+                                <td class="p-5 font-mono font-bold text-blue-700">1200</td>
+                                <td class="p-5 font-bold">
+                                    <a href="[填寫網址]" target="_blank" class="text-blue-500 underline hover:text-blue-700">親吻牆</a>
+                                </td>
+                                <td class="p-5 text-sm leading-relaxed">
+                                    正式名稱《<b>世界誕生於每一次吻</b>》。紀念 1714 年圍城戰 300 週年，由 <b>4000 塊</b>市民投稿照片瓷磚拼貼而成。
+                                </td>
+                                <td class="p-5 text-sm">--</td>
+                            </tr>
+                            <!-- 12:10 -->
+                            <tr class="hover:bg-orange-50/30 transition">
+                                <td class="p-5 font-mono font-bold text-blue-700">1210</td>
+                                <td class="p-5 font-bold">
+                                    <a href="[填寫網址]" target="_blank" class="text-blue-500 underline hover:text-blue-700">巴塞羅那主教座堂</a>
+                                </td>
+                                <td class="p-5 text-sm leading-relaxed">
+                                    壯麗哥德式建築。內有 <b>13 隻白鵝</b> 守護聖歐拉利亞。
+                                </td>
+                                <td class="p-5 text-sm">--</td>
+                            </tr>
+                            <!-- 14:30 -->
+                            <tr class="bg-blue-50/50">
+                                <td class="p-5 font-mono font-bold text-blue-700">1430</td>
+                                <td class="p-5 font-bold">
+                                    <a href="[填寫網址]" target="_blank" class="text-blue-500 underline hover:text-blue-700">Moscada Restaurante</a>
+                                </td>
+                                <td class="p-5 text-sm">
+                                    <span class="bg-blue-600 text-white px-2 py-0.5 rounded text-xs mr-2 font-bold tracking-widest">已預約</span>
+                                    主菜:<b>魚</b>、甜點:<b>起司蛋糕</b>、飲料:<b>白酒</b>。
+                                </td>
+                                <td class="p-5 font-bold">€16-18.8</td>
+                            </tr>
+                            <!-- 17:30 -->
+                            <tr class="bg-orange-50 border-l-4 border-orange-500">
+                                <td class="p-5 font-mono font-bold text-orange-700">1730</td>
+                                <td class="p-5 font-bold">
+                                    <a href="[填寫:聖家堂官網]" target="_blank" class="text-orange-600 underline hover:text-orange-800">聖家堂 (Sagrada Família)</a>
+                                </td>
+                                <td class="p-5 text-sm space-y-2 leading-relaxed">
+                                    <span class="bg-orange-600 text-white px-2 py-0.5 rounded text-xs mr-2 font-bold tracking-widest">須預約</span>
+                                    <b>1. 誕生立面:</b> 高第親自督工。<br>
+                                    <b>2. 受難立面:</b> 冷峻、痛苦悲劇色彩。<br>
+                                    <b>3. 榮耀立面:</b> 持續施工中，人類起源願景。<br>
+                                    <p class="text-xs text-orange-700 font-bold italic underline">※ 門口檢查護照，預約登頂 (Nativity facade)。</p>
+                                </td>
+                                <td class="p-5 font-bold">€36</td>
+                            </tr>
+                            <!-- 21:00 -->
+                            <tr class="hover:bg-orange-50/30 transition">
+                                <td class="p-5 font-mono font-bold text-blue-700">2100</td>
+                                <td class="p-5 font-bold">
+                                    <a href="[填寫網址]" target="_blank" class="text-blue-500 underline hover:text-blue-700">Plaza Real</a>
+                                </td>
+                                <td class="p-5 text-sm">
+                                    哥德區優雅角落。看點：高第設計的<b>頭盔造型路燈</b>與三美神噴泉。
+                                </td>
+                                <td class="p-5 text-sm">--</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
             <!-- 後續區塊插入點 -->
         </div>
     </main>
