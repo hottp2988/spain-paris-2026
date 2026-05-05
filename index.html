@@ -25,7 +25,348 @@
     </nav>
 
     <main class="max-w-7xl mx-auto px-4 py-10 space-y-24">
+<!-- 行前總表區塊 -->
+        <section id="preparation" class="scroll-mt-20 space-y-12">
+            <div class="border-l-8 border-slate-800 pl-6 mb-8">
+                <h2 class="text-4xl font-black italic uppercase">Preparation</h2>
+                <p class="text-gray-500 font-bold">機票 / 住宿 / 交通 / 景點門票總覽[cite: 1]</p>
+            </div>
 
+            <!-- 機票 -->
+            <div class="bg-white rounded-3xl shadow-xl border border-gray-200 overflow-hidden">
+                <div class="bg-slate-800 text-white p-4 font-bold text-lg">機票</div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left whitespace-nowrap">
+                        <thead class="bg-gray-100 text-gray-600 text-xs uppercase border-b">
+                            <tr><th class="p-4">日期</th><th class="p-4">航班</th><th class="p-4">時間</th><th class="p-4">價格</th><th class="p-4">備註</th></tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 text-sm">
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-bold">06/7</td>
+                                <td class="p-4"><b>CA196</b><br>CA839</td>
+                                <td class="p-4">出發 <b>17:55</b> 抵達 <b>07:55+1</b><br>19:55 上海浦東 4hr 45min</td>
+                                <td class="p-4 font-bold text-blue-600">NT$42,322</td>
+                                <td class="p-4">中國國際航空<br>A330-300+A359<br>手提5kg/人託運23kg/人(<b>無直掛</b>)</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-bold">06/22</td>
+                                <td class="p-4"><b>CA876</b><br>CA185</td>
+                                <td class="p-4">出發 <b>12:30</b> 抵達 <b>11:40+1</b><br>04:35 北京首都 3hr 55min</td>
+                                <td class="p-4 font-bold text-blue-600">--</td>
+                                <td class="p-4">波音777-300+A330-300<br>55*40*20<br>手提5kg/人託運23kg/人(<b>直掛</b>)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 住宿 -->
+            <div class="bg-white rounded-3xl shadow-xl border border-gray-200 overflow-hidden">
+                <div class="bg-slate-800 text-white p-4 font-bold text-lg">住宿 (46,784+€100.66=50,479)</div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left whitespace-nowrap">
+                        <thead class="bg-gray-100 text-gray-600 text-xs uppercase border-b">
+                            <tr><th class="p-4">日期</th><th class="p-4">名稱</th><th class="p-4">價格</th><th class="p-4">備註</th></tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 text-sm">
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-bold">06/8-11</td>
+                                <td class="p-4 font-bold">巴塞隆納大自然飯店</td>
+                                <td class="p-4"><b>NT$13,076</b> / 現付 <b>€33</b></td>
+                                <td class="p-4">13.30入住 / 前台到15.00 / 12.00 退房 ok<br>入住前/退房後可寄放行李 ok</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-bold">6/12-13</td>
+                                <td class="p-4 font-bold">東橫INN 馬賽</td>
+                                <td class="p-4"><b>NT$3,680</b> / 現付 <b>€4.32</b></td>
+                                <td class="p-4">24小時櫃台 / 車站旁 / 11.00退房<br>入住前/退房後可寄放行李 ok</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-bold">06/13-16</td>
+                                <td class="p-4 font-bold">加利福尼亞雷維爾飯店 (宜必思快捷尼斯)</td>
+                                <td class="p-4"><b>NT$12,958</b> / 現付 <b>€8.04</b></td>
+                                <td class="p-4">24小時櫃台 / 14.00入住 / 12.00退房<br>入住前/退房後可寄放行李 ok</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-bold">06/17-22</td>
+                                <td class="p-4 font-bold">巴黎阿涅爾公寓飯店</td>
+                                <td class="p-4"><b>NT$17,070</b> / 現付 <b>€55.3</b></td>
+                                <td class="p-4">15.00-22.00入住 / 車站5mins / 10.00退房<br>入住前10.00可寄放行李 ok</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 交通 -->
+            <div class="bg-white rounded-3xl shadow-xl border border-gray-200 overflow-hidden">
+                <div class="bg-slate-800 text-white p-4 font-bold text-lg">交通 (€384.5+€180+2117=22,841)</div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left whitespace-nowrap">
+                        <thead class="bg-gray-100 text-gray-600 text-xs uppercase border-b">
+                            <tr><th class="p-4">日期</th><th class="p-4">地點</th><th class="p-4">交通方式</th><th class="p-4">價格</th><th class="p-4">備註</th></tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 text-sm">
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4">6/8</td>
+                                <td class="p-4">機場至市區</td>
+                                <td class="p-4">Aerobus</td>
+                                <td class="p-4"><b>€7.75/人</b></td>
+                                <td class="p-4">Oneway -Aerobús</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4">6/08-10</td>
+                                <td class="p-4">巴塞隆納市區</td>
+                                <td class="p-4">地鐵 Tfamiliar</td>
+                                <td class="p-4"><b>€11.5/2p/8 x*2</b></td>
+                                <td class="p-4">红色的TMB售票機 / 單程票:€2.9</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4">6/11</td>
+                                <td class="p-4">蒙塞拉特</td>
+                                <td class="p-4">Trans Montserrat Combined Ticket</td>
+                                <td class="p-4"><b>€46.45/人</b></td>
+                                <td class="p-4">火車票/索道纜車無限次/纜車票<br>車站剪票口旁自動售票機現金購買</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4">6/11</td>
+                                <td class="p-4">巴塞隆納至馬賽</td>
+                                <td class="p-4">Flixbus</td>
+                                <td class="p-4"><b>NT$2,117/2p</b></td>
+                                <td class="p-4">夜間巴士</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4">6/12</td>
+                                <td class="p-4">馬賽市區</td>
+                                <td class="p-4">馬賽 City Pass</td>
+                                <td class="p-4"><b>€36/人</b></td>
+                                <td class="p-4">至旅客服務中心/景點售票處換票</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4">6/13-15</td>
+                                <td class="p-4">南法城市</td>
+                                <td class="p-4">南法通票 ZOU!</td>
+                                <td class="p-4"><b>€80/2p</b></td>
+                                <td class="p-4">馬賽/坎城/尼斯/芒通/摩納哥 埃茲</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4">6/13-16</td>
+                                <td class="p-4">尼斯市區</td>
+                                <td class="p-4">Lignes d'Azur</td>
+                                <td class="p-4"><b>€17/10 次</b></td>
+                                <td class="p-4">購買 La Carte(卡€2),可共用/退票</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4">6/16</td>
+                                <td class="p-4">尼斯至巴黎</td>
+                                <td class="p-4">INTERCITÉS</td>
+                                <td class="p-4"><b>€180/NT$6681</b></td>
+                                <td class="p-4">臥鋪火車(包整間)</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4">6/17-21</td>
+                                <td class="p-4">巴黎市區</td>
+                                <td class="p-4">Navigo Semaine (週一至週日)</td>
+                                <td class="p-4"><b>€32.4/人</b></td>
+                                <td class="p-4">Bonjour RATP購票/須連接當地網路<br>人工櫃檯購買/須備1吋照片並簽名 Zxc830530$$$</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4">6/22</td>
+                                <td class="p-4">市區至機場</td>
+                                <td class="p-4">Navigo Easy</td>
+                                <td class="p-4"><b>€14/人</b></td>
+                                <td class="p-4">Bonjour RATP 購票/須連接當地網路</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 景點門票 -->
+            <div class="bg-white rounded-3xl shadow-xl border border-gray-200 overflow-hidden">
+                <div class="bg-slate-800 text-white p-4 font-bold text-lg">景點門票 (€400.3=14,696)</div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left whitespace-nowrap">
+                        <thead class="bg-gray-100 text-gray-600 text-xs uppercase border-b">
+                            <tr><th class="p-4">日期</th><th class="p-4">名稱</th><th class="p-4">價格</th><th class="p-4">備註</th></tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 text-sm">
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0608</td>
+                                <td class="p-4"><b>聖家堂</b> Sagrada Família with tower<br>須預約(官網 17:30/18:00)</td>
+                                <td class="p-4"><b>€36/NT$2,617</b><br>34 (underthirty)</td>
+                                <td class="p-4">門口檢查護照 / 預約時間為登頂(on the Nativity facade)<br>最後別忘了到聖家堂地下室的博物館<br>參觀注意穿着/下載導覽 APP</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0610</td>
+                                <td class="p-4"><b>巴特略之家</b> GOLD TICKET<br>已預約(官網 09:00)</td>
+                                <td class="p-4"><b>€39*2/NT$2,895</b></td>
+                                <td class="p-4">攻略 排隊隊伍是拍照服務€ 13.9貴但很值得</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0610</td>
+                                <td class="p-4"><b>奎爾公園</b><br>已預約(官網15:00)</td>
+                                <td class="p-4"><b>€18*2/NT$1337</b></td>
+                                <td class="p-4">奎爾公園正門進入,公園內樹蔭較少,尤 其是自然廣場非常曬。<br>建議自備水瓶(園 內有飲水機)與陽傘。</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0612</td>
+                                <td class="p-4">Mucem 地中海文明博物館*<br>普羅旺斯博物館*</td>
+                                <td class="p-4"><b>€11</b><br><b>€8.5</b></td>
+                                <td class="p-4">(官網)出示馬賽 City Pass 給展館人員<br>(官網)售票處出示馬賽 City Pass 換票</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0612</td>
+                                <td class="p-4">柯斯凱地中海博物館*<br>來回船票*</td>
+                                <td class="p-4"><b>€18</b><br><b>€11.1</b></td>
+                                <td class="p-4">(官網)售票處出示馬賽 City Pass 換票<br>(官網)售票處/額外買票去伊夫島</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0612</td>
+                                <td class="p-4">伊夫城堡*<br>舊港觀光小火車* Circuit 1</td>
+                                <td class="p-4"><b>€7</b><br><b>€11</b></td>
+                                <td class="p-4">(官網)售票處出示馬賽 City Pass 換票</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0612</td>
+                                <td class="p-4">Colorbus 觀光巴士*<br>Marseille CityPass*</td>
+                                <td class="p-4"><b>€22</b><br><b>€36</b></td>
+                                <td class="p-4">(官網)任停靠站向司機出示馬賽 City Pass<br>包含大眾運輸/至旅客服務中心換票</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0614</td>
+                                <td class="p-4">畢卡索博物館</td>
+                                <td class="p-4"><b>€12</b></td>
+                                <td class="p-4">(官網)現場提供隨身包免費置物櫃</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0615</td>
+                                <td class="p-4">芒通市政廳<br>蒙地卡羅賭場<br>Jardin Exotique d'Èze</td>
+                                <td class="p-4"><b>€2</b><br><b>€19</b><br><b>€10</b></td>
+                                <td class="p-4">(官網)保持安靜/大廳位於主入口左側<br>(官網)注意服裝限制/大廳免費且可拍攝<br>(官網)務必穿著運動鞋地勢多階梯</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0616</td>
+                                <td class="p-4">聖尼古拉主教座堂</td>
+                                <td class="p-4"><b>€5</b></td>
+                                <td class="p-4">(官網)服裝需遮住肩膀和膝蓋/女包頭巾</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0617</td>
+                                <td class="p-4">傷兵院*<br>巴黎軍事博物館*<br>拿破崙波拿巴之墓*<br>立體地圖博物館*</td>
+                                <td class="p-4"><b>€17</b></td>
+                                <td class="p-4">(官網)<br>現場提供隨身包免費置物櫃 (55 x 35 x 25 cm)<br>(官網)位於軍事博物館的4th floor</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0617</td>
+                                <td class="p-4">解放勳章博物館*<br>羅丹美術館*</td>
+                                <td class="p-4"><b>€14</b></td>
+                                <td class="p-4">(官網)建議先參觀軍事博物館二戰展區<br>(官網)現場提供隨身包免費置物櫃</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0617</td>
+                                <td class="p-4">建築與遺產城* 已預約(官網15:00)<br>巴黎國立海洋博物館*</td>
+                                <td class="p-4"><b>€13</b><br><b>€8</b></td>
+                                <td class="p-4">Dgdd1146@/最早20分鐘前開始入場<br>(官網)現場提供隨身包免費置物櫃</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0617</td>
+                                <td class="p-4">布朗利河岸博物館*<br>凱旋門*</td>
+                                <td class="p-4"><b>€14</b><br><b>€16-€22</b></td>
+                                <td class="p-4">(官網)現場提供隨身包免費置物櫃<br>(官網)星期三€16/登頂284階螺旋石階</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0618</td>
+                                <td class="p-4">羅浮宮* 已預約(官網 09:00)<br>裝飾藝術博物館<br>橘園美術館* 已預約(官網 13:00)</td>
+                                <td class="p-4"><b>€32</b><br><b>€15</b><br><b>€12.5</b></td>
+                                <td class="p-4">Dgdd1146/玻璃金字塔下方免費置物櫃<br>須在預約時段30分鐘內抵達 / 現場有付費繁體中文導覽機<br>(官網)可預約入場時間/在櫃檯領取地圖。Dgdd1146$0207</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0618</td>
+                                <td class="p-4">海軍府* 須預約(官網15:00)<br>古斯塔夫·莫羅博物館*<br>贖罪禮拜堂*</td>
+                                <td class="p-4"><b>€13</b><br><b>€8</b><br><b>€7</b></td>
+                                <td class="p-4">Dgdd1146$880207 榮譽庭院免費開放<br>(官網)牆面從地板到天花板掛滿了畫作<br>(官網)12:30會清場</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0618</td>
+                                <td class="p-4">奧賽博物館* 已預約(官網19:30)</td>
+                                <td class="p-4"><b>€16</b></td>
+                                <td class="p-4">Ddgg1146$0207/導覽機提供中文解說<br>現場提供隨身包免費置物櫃</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0619</td>
+                                <td class="p-4">巴黎聖母院* 已預約(官網 09:00)<br>考古地穴博物館*<br>聖徒禮拜堂* 已預約(官網 11:00)</td>
+                                <td class="p-4">免費(登頂<b>€16</b>)<br><b>€11</b><br><b>€22</b></td>
+                                <td class="p-4">Dgdd1146$880207/建議 08:30抵達<br>(官網)正門尋找 Crypte arch ologique 地下階梯<br>建議 10:40 抵達 / 古監獄共用區塊</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0619</td>
+                                <td class="p-4">巴黎古監獄* 已預約(官網13:00)<br>國立工藝博物館*<br>猶太藝術與歷史博物館*<br>畢卡索美術館*</td>
+                                <td class="p-4"><b>€13</b><br><b>€12</b><br><b>€13</b><br><b>€16</b></td>
+                                <td class="p-4">建議隨身帶薄外套 / 聖禮拜堂共用區塊<br>(官網)現場提供隨身包免費置物櫃</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0619</td>
+                                <td class="p-4">阿拉伯世界文化中心*</td>
+                                <td class="p-4"><b>€7</b></td>
+                                <td class="p-4">(官網)持通票可免費進入常設展</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0620</td>
+                                <td class="p-4">凡爾賽宮* 已預約(官網 09:00)<br>先賢祠*<br>國立中世紀博物館*</td>
+                                <td class="p-4"><b>€35</b><br><b>€13</b><br><b>€14</b></td>
+                                <td class="p-4">Dgdd1146$0207/建議 08:40抵達 / 下載APP (音樂噴泉另付費)<br>(官網)17:45 最後入場<br>(官網)現場提供隨身包免費置物櫃</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0617-20</td>
+                                <td class="p-4"><b>PARIS MUSEUM PASS*</b></td>
+                                <td class="p-4">2days:<b>€85</b><br>4days:<b>€105(€216.3)</b><br>6days:<b>€125</b></td>
+                                <td class="p-4">55個景點 / 每個景點只能進入一次<br>注意強制預約!!</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4 font-mono font-bold">0621</td>
+                                <td class="p-4">聖心堂<br>艾菲爾鐵塔</td>
+                                <td class="p-4">免費(登頂<b>€8</b>)<br>頂層<b>€36.7</b><br>二層<b>€14.8/€23.5</b></td>
+                                <td class="p-4">(官網)保持安靜、脫帽、穿著得體<br>(官網)周邊扒手熱點,無視推銷手環或連署的人</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 其他 -->
+            <div class="bg-white rounded-3xl shadow-xl border border-gray-200 overflow-hidden">
+                <div class="bg-slate-800 text-white p-4 font-bold text-lg">其他</div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left whitespace-nowrap">
+                        <thead class="bg-gray-100 text-gray-600 text-xs uppercase border-b">
+                            <tr><th class="p-4">日期</th><th class="p-4">名稱</th><th class="p-4">價格</th><th class="p-4">備註</th></tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 text-sm">
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4">0607-22</td>
+                                <td class="p-4"><b>Esim 網路</b></td>
+                                <td class="p-4"><b>NT$770/人</b></td>
+                                <td class="p-4">20G*2= NT$1540</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4">0607-22</td>
+                                <td class="p-4"><b>旅遊平安險</b></td>
+                                <td class="p-4"><b>NT$/人</b></td>
+                                <td class="p-4">含旅遊不便險</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-4">0608/11</td>
+                                <td class="p-4"><b>行李寄存(09:00)</b></td>
+                                <td class="p-4"><b>€14.5/天</b></td>
+                                <td class="p-4">Barcelona Bus Terminal Nord</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+<!-- D1 06/07 (Tue.) -->
         <section id="d1" class="scroll-mt-20">
             <div class="border-l-8 border-indigo-600 pl-6 mb-8">
                 <h2 class="text-4xl font-black italic uppercase">D1 06/07 (Sun.)</h2>
@@ -57,7 +398,7 @@
                 </table>
             </div>
         </section>
-
+<!-- D2 06/08 (Tue.) -->
         <section id="d2" class="scroll-mt-20">
             <div class="border-l-8 border-orange-600 pl-6 mb-8">
                 <h2 class="text-4xl font-black italic uppercase">D2 06/08 (Mon.)</h2>
